@@ -27,3 +27,15 @@ TestResults.xml
 *.env 
 *.Identifier
 /data/*.Identifier
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+### Runtime artifacts ###
+logs/
+*.log
