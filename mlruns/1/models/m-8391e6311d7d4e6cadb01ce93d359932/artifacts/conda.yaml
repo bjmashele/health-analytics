@@ -1,0 +1,14 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.11.7
+- pip
+- pip:
+  - mlflow==3.14.0
+  - markdown-it-py==4.2.0
+  - mdurl==0.1.2
+  - pygments==2.20.0
+  - rich==15.0.0
+  - scikit-learn==1.9.0
+  - skops==0.14.0
+name: mlflow-env
