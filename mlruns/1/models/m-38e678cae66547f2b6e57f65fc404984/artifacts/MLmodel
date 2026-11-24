@@ -1,0 +1,24 @@
+artifact_path: /home/bjmashele/linux/workspace/health-analytics/mlruns/1/models/m-38e678cae66547f2b6e57f65fc404984/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - numpy.dtype
+mlflow_version: 3.14.0
+model_id: m-38e678cae66547f2b6e57f65fc404984
+model_size_bytes: 9851803
+model_uuid: m-38e678cae66547f2b6e57f65fc404984
+prompts: null
+run_id: 1fc9dda068734c07a88acc51a3334263
+utc_time_created: '2026-11-24 07:35:53.896012'
