@@ -39,3 +39,8 @@ venv/
 ### Runtime artifacts ###
 logs/
 *.log
+
+### MLflow ###
+mlruns/
+mlflow.db
+*.skops
